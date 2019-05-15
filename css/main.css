@@ -242,7 +242,7 @@ nav a#openup {
 
 /* Media only nav  */
 
-@media screen and (max-width: 1022px) {
+@media screen and (max-width: 1023px) {
   nav {
     height: auto;
     border-bottom: 0;
@@ -324,7 +324,7 @@ nav a#openup {
   zoom: 1;
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1024px) {
   nav ul {
     justify-content: flex-end;
   }
@@ -478,7 +478,7 @@ nav a#openup {
   }
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 1024px) {
   .top-bar-container {
     display: flex;
     height: 60px;
@@ -912,10 +912,12 @@ footer p {
 
 .offers-details-head {
   height: 150px;
+  margin-top: 47px;
   background-image: url("../img/courses.jpg");
   background-position: center;
   background-size: cover;
 }
+
 
 .offers-details-head h1.head-offer-detail {
   text-align: center;
@@ -1007,6 +1009,10 @@ footer p {
 
 /* media */
 @media (min-width: 1024px) {
+  .offers-details-head {
+    margin-top: 120px;
+
+  }
   .offer-details-box p {
     padding: 0 100px;
     font-size: 1.8rem;
