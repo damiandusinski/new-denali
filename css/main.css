@@ -607,7 +607,7 @@ nav a#openup {
 .offer-img {
   position: relative;
   overflow: hidden;
-  height: 400px;
+  height: 300px;
 }
 
 .offer-img img {
@@ -623,15 +623,18 @@ nav a#openup {
   font-size: 2.4rem;
   text-transform: uppercase;
   text-align: center;
-  padding: 0px 25px 25px 25px;
+  padding: 25px 25px 0px 25px;
 }
 
 .offer-text {
   position: relative;
-  padding: 25px 25px 25px 25px;
   font-size: 1.6rem;
   line-height: 1.4;
   text-align: center;
+  padding-bottom: 25px;
+}
+.offer-text p {
+  padding: 25px 25px 0px 25px;
 }
 
 .offer-text ul {
@@ -640,7 +643,7 @@ nav a#openup {
 
 .offer-text li {
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 25px;
   font-size: 1.4rem;
   text-align: left;
 }
@@ -648,7 +651,7 @@ nav a#openup {
 .offer-text a.offer-btn {
   display: block;
   width: 30%;
-  margin: 30px auto 10px auto;
+  margin: 30px auto 0px 25px;
   padding: 5px;
   text-align: center;
   font-size: 1.6rem;
@@ -673,6 +676,11 @@ nav a#openup {
 
 /* media offers start */
 @media (min-width: 602px) {
+  .offer-img {
+    min-height: 380px;
+    max-height: 450px;
+  }
+
   .offer-box {
     display: flex;
   }
@@ -702,7 +710,7 @@ nav a#openup {
   .offer-text a.offer-btn {
     width: 30%;
     font-size: 1.6rem;
-    margin: 20px 10px;
+    margin: 20px 25px;
   }
 }
 
