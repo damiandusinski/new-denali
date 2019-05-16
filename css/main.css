@@ -781,6 +781,11 @@ nav a#openup {
   text-align: center;
 }
 
+.benefits-box-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .benefits h1.section-header {
   padding-bottom: 0;
 }
@@ -800,7 +805,7 @@ p.benefits-text {
 }
 
 .benefits-box {
-  padding: 25px;
+  /* padding: 25px; */
 }
 
 .benefits-box:last-child {
@@ -809,9 +814,10 @@ p.benefits-text {
 
 /* media */
 @media (min-width: 640px) {
-  .benefits {
+  .benefits-box-wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .benefits h1.section-header {
@@ -828,7 +834,7 @@ p.benefits-text {
   }
 
   .benefits-box {
-    flex-basis: 50%;
+    flex-basis: 45%;
   }
 }
 
@@ -842,8 +848,7 @@ p.benefits-text {
   }
 
   .benefits-box {
-    flex-basis: 25%;
-    padding: 10px;
+    flex-basis: 23%;
   }
 }
 
@@ -917,7 +922,6 @@ footer p {
   background-position: center;
   background-size: cover;
 }
-
 
 .offers-details-head h1.head-offer-detail {
   text-align: center;
@@ -1011,7 +1015,6 @@ footer p {
 @media (min-width: 1024px) {
   .offers-details-head {
     margin-top: 120px;
-
   }
   .offer-details-box p {
     padding: 0 100px;
